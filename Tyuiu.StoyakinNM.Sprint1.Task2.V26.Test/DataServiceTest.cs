@@ -10,7 +10,7 @@ namespace Tyuiu.StoyakinNM.Sprint1.Task2.V26.Test
             DataService ds = new DataService();
             int x = 1;
             int y = 10;
-            var res = ds.CalculateMinutesSinceStart(x, y);
+            var res = ds.Calculate(x, y);
             Assert.AreEqual(70, res);
         }
     }
