@@ -32,7 +32,7 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ;                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine("C начала суток прошло" + " " + ds.Calculate(x, y) + " " + "минут");
+        Console.WriteLine("C начала суток прошло" + " " + ds.CalculateMinutesSinceStart(x, y) + " " + "минут");
 
         Console.ReadLine();
     }
