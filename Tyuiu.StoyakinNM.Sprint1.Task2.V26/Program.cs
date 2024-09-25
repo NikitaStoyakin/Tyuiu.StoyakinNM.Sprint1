@@ -7,7 +7,7 @@ internal class Program
         Console.Title = "Спринт #1 | Выполнил: Стоякин Н.М. | ПКТб-24-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #1                                                               *");
-        Console.WriteLine("* Тема: Арифметические операторы в C#                                      *");
+        Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
         Console.WriteLine("* Задание #2                                                              *");
         Console.WriteLine("* Вариант #26                                                             *");
         Console.WriteLine("* Выполнил: Стоякин Никита Михайлович | ПКТб 24-1                         *");
