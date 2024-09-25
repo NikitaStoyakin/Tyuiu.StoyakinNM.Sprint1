@@ -11,7 +11,7 @@ namespace Tyuiu.StoyakinNM.Sprint1.Task2.V26.Test
             double x = 1;
             double y = 10;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(70, res);
+            Assert.AreEqual(70, res, 0.001);
         }
     }
 }
