@@ -8,8 +8,8 @@ namespace Tyuiu.StoyakinNM.Sprint1.Task2.V26.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int x = 1;
-            int y = 10;
+            double x = 1;
+            double y = 10;
             var res = ds.Calculate(x, y);
             Assert.AreEqual(70, res);
         }
