@@ -2,11 +2,11 @@
 using tyuiu.cources.programming.interfaces.Sprint1;
 namespace Tyuiu.StoyakinNM.Sprint1.Task2.V26.Lib
 {
-    public class DataService : ISprint1Task1V26
+    public class DataService : ISprint1Task2V26
     {
-        public double Calculate(double x, double y)
+        public int CalculateMinutesSinceStart(int value, int valueTwo)
         {
-            return (x * 60) + y;
+            return (value * 60) + valueTwo;
         }
     }
 }

@@ -20,19 +20,19 @@ internal class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        double x, y;
+        int value, valueTwo;
 
         Console.WriteLine("Введите часы:");
-        x = Convert.ToDouble(Console.ReadLine());
+        value = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Введите минуты:");
-        y = Convert.ToDouble(Console.ReadLine());
+        valueTwo = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ;                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine("C начала суток прошло" + " " + ds.Calculate(x, y) + " " + "минут");
+        Console.WriteLine("C начала суток прошло" + " " + ds.CalculateMinutesSinceStart(value, valueTwo) + " " + "минут");
 
         Console.ReadLine();
     }
