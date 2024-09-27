@@ -7,10 +7,10 @@ namespace Tyuiu.StoyakinNM.Sprint1.Task6.V7.Test
         [TestMethod]
         public void ValidString()
         {
-            string strTest = "world";
+            string strTest = "привет";
             DataService ds = new DataService();
             string res = ds.DeleteLastLetter( strTest );
-            string wait = "worl";
+            string wait = "приве";
             Assert.AreEqual(wait, res);
         }
     }
